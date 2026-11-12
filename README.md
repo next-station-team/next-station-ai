@@ -12,7 +12,7 @@ LLM 호출 코드는 백엔드 레포에 있고, 이 레포에서는 스키마·
 | `samples/llm-output.example.json` | 위 스키마를 따르는 LLM 출력 예시 |
 | `samples/api-response.example.json` | 백엔드가 프론트에 내려줄 응답 예시 (제안안) |
 
-## 데이터 흐름
+## 데이터 flow
 
 ```
 강의 노트 (최대 약 5,000자)
