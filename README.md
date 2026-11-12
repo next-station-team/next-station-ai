@@ -18,9 +18,9 @@ LLM 호출 코드는 백엔드 레포에 있고, 이 레포에서는 스키마·
 강의 노트 (최대 약 5,000자)
   → Gemini (gemini-3.1-flash-lite) + llm-output.schema.json
   → LLM 출력 (llm-output)
-  → 백엔드 가공: 검증, id 부여, 블록 구성, 예상 소요 시간 계산
+  → 백엔드 가공: 검증, id 부여, 블록 구성
   → API 응답 (api-response)
   → 프론트 (IndexedDB 저장)
 ```
 
-예상 소요 시간은 LLM이 아니라 백엔드에서 규칙으로 계산합니다. 초기값은 읽기 약 7자/초, TTS 약 5자/초, 퀴즈 30초/문항이고 실측 후 조정할 예정입니다.
+
